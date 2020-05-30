@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "download_rss",
+    "rss2json",
+]
