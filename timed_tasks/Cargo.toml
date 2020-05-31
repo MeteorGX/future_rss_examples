@@ -1,0 +1,16 @@
+[package]
+name = "timed_tasks"
+version = "0.1.0"
+authors = ["MeteorGX <guixin2010@live.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+future_rss = {git = "https://github.com/MeteorGX/future_rss"}
+env_logger = "*"
+log = "*"
+dotenv = "*"
+md5 = "*"
+chrono = "*"
+tokio = {version = "*",features = [ "macros","rt-core","time" ] }

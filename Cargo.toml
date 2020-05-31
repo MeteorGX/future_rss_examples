@@ -3,4 +3,5 @@
 members = [
     "download_rss",
     "rss2json",
+    "timed_tasks"
 ]
