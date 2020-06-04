@@ -15,4 +15,6 @@ $ cargo run --package rss2json https://www.zhihu.com/rss zhihu.json
 
 ### download rss timed tasks
 
-
+```plain
+$ cargo run --package timed_tasks
+```
