@@ -62,10 +62,8 @@ async fn main()->Result<(),Box<dyn std::error::Error>>{
     }
     builder.try_init()?;
 
-
     let seconds = dotenv::var("rss_check_seconds").unwrap_or("1".into());
     debug!("Tick Seconds = {}",seconds);
-
 
     let seconds = seconds.parse()?;
     loop{
